@@ -1,67 +1,9 @@
-body {
-  background: red;
+* {
+    box-sizing: border-box;
 }
 
-.container {
-  margin: 0 auto;
-  color:black;
-  background-color: white;
-  box-sizing: border-box;
-}
-
-/*smartphones mobiles (portrait)*/
-@media (max-width: 480px) {
-  .container {
-    width: 100%;
-    padding: 5px 10px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
-}
-
-/*low resolution tablets, mobiles (landscape)*/
-@media (min-width: 481px) and (max-width: 767px) {
-  body {
-    background: green;
-  }
-  .container {
-    width: 100%;
-    padding: 5px 10px;
-  }
-}
-
-/*tablets, ipads (landscape)*/
-@media (min-width: 768px) and (max-width: 1024px) {
-  body {
-    background: yellow;
-  }
-  .container {
-    width: 750px;
-    padding: 5px 10px;
-  }
-}
-
-/*laptops, desktops*/
-@media (min-width: 1025px) and (max-width: 1280px) {
-  body {
-    background: black;
-    color : #fff;
-  }
-  .container {
-    width: 980px;
-    padding: 5px 10px;
-  }
-}
-
-/*desktops - higher resolution*/
-@media (min-width: 1281px) {
-  body {
-    background: rebeccapurple;
-    color : #fff;
-  }
-  .example-five {
-    display: block;
-  }
-  .container {
-    width: 1200px;
-    padding: 5px 10px;
-  }
-}
