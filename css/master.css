@@ -115,17 +115,75 @@ img {
     margin-left: 3rem;
 }
 
-.rachel-container {
-    position: relative;
-    text-align: left;
-}
 
-.centered-text {
-    position: absolute;
+.rachel-body {
+    /* Location of the image */
+    background-image: url("https://miro.medium.com/max/1080/1*iYOnN1zrS0ssyyI9-nskQw.jpeg");
+    
+    /* Image is centered vertically and horizontally at all times */
+    background-position: center center;
+    
+    /* Image doesn't repeat */
+    background-repeat: no-repeat;
+    
+    /* Makes the image fixed in the viewport so that it doesn't move when 
+       the content height is greater than the image height */
+    background-attachment: fixed;
+    
+    /* This is what makes the background image rescale based on its container's size */
+    background-size: cover;
+    
+    /* Pick a solid background color that will be displayed while the background image is loading */
+    background-color:#464646;
+    
+    /* SHORTHAND CSS NOTATION
+     * background: url(background-photo.jpg) center center cover no-repeat fixed;
+     */
+  }
+
+.rachel-container {
+    display: table;
+    padding-top: 30rem;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .rachel-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
     color: white;
     background-color: rgba(239, 71, 111, 0.7);
-    padding: 3rem;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+  }
+  
+  /* Special */
+  .sub-title {
+    margin: 50px auto;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: left;
+    width: 50%;
+  }
+  
+  
+  /* Media Queries */
+  @media only screen and (max-width: 340px) {
+    
+    .rachel-container {
+      position: relative;
+      display: block;
+      float: left;
+      vertical-align: baseline;
+    }
+  
+    .sub-title {
+      width: auto;
+    }
+    
+    
+    body h1 {
+      font-size: 18px;
+      line-height: 23px;
+    } 
+  
+  }
