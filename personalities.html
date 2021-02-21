@@ -3,55 +3,133 @@
 
 <head>
 
-    <!-- Basic Page Needs
+  <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta charset="utf-8">
-    <title>CSS Personalities</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <title>CSS Personalities</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <!-- Mobile Specific Metas
+  <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- FONT
+  <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
-    <!-- CSS
+  <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/barebones.css">
-    <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/barebones.css">
+  <link rel="stylesheet" href="css/styles.css">
 
-    <!-- Favicon
+  <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="images/favicon-16.png">
+  <link rel="icon" type="image/png" href="images/favicon-16.png">
 
 </head>
 
 <body>
 
-    <!--Navigation-->
+  <!--Navigation-->
 
-    <header>
-        <section>
-            <a href="index.html" id="logo">Learning CSS</a>
+  <header class="main-header">
+    <div class="container">
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="history.html">History of CSS</a></li>
+          <li><a href="personalities.html">CSS Personalities</a></li>
+          <li><a href="andrew.html">Rachel Andrew</a></li>
+          <li><a href=" ">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-            <nav>
-                <ul>
-                    <li><a href="index.html"><i class="icon-home"></i>Home</a></li>
-                    <li><a href=" "><i class="icon-user"></i>History of CSS</a></li>
-                    <li><a href="personalities.html"><i class="icon-thumbs-up-alt"></i>CSS Personalities</a></li>
-                    <li><a href="andrew.html"><i class="icon-gear"></i>Rachel Andrew</a></li>
-                    <li><a href=" "><i class="icon-picture"></i>About</a></li>
-                </ul>
-            </nav>
-    </header>
+  <h1>CSS Personalities</h1>
 
-    <h1>CSS Personalities</h1>
+  <section>
+    <div class="personnalities-flex">
 
+      <div class="card">
+        <a href="https://jensimmons.com/">
+          <img src="images/personalities/jen-photo.jpg" width="" height="" alt="Some sample words">
+        </a>
+        <h3>Jen Simmons</H3>
+        <a class="btn" href="https://jensimmons.com/">Read more</a>
+      </div>
 
+      <div class="card">
+        <a href="andrew.html">
+          <img src="images/personalities/rachel-photo.jpg" width="" height="" alt="Some sample words">
+        </a>
+        <h3>Rachel Andrew</h3>
+        <a class="btn" href="andrew.html">Read more</a>
+      </div>
+
+      <div class="card">
+        <a href="https://lea.verou.me/">
+          <img src="images/personalities/lea-photo.jpg" width="" height="" alt="Some sample words">
+        </a>
+        <h3>Lea Verou</h3>
+        <a class="btn" href="https://lea.verou.me/">Read more</a>
+      </div>
+
+      <div class="card">
+        <a href="https://valhead.com/">
+          <img src="images/personalities/val-photo.jpg" width="" height="" alt="Some sample words">
+        </a>
+        <h3>Val Head</h3>
+        <a class="btn" href="https://valhead.com/">Read more</a>
+      </div>
+
+      <div class="card">
+        <a href="https://www.sarasoueidan.com/">
+          <img src="images/personalities/sara-photo.png" width="" height="" alt="Some sample words">
+        </a>
+        <h3>Sara Soueidan</h3>
+        <a class="btn" href="https://www.sarasoueidan.com/">Read more</a>
+      </div>
+
+      <div class="card">
+        <a href="https://codepen.io/thebabydino">
+          <img src="images/personalities/ana-photo.jpg" width="" height="" alt="Some sample words">
+        </a>
+        <h3>Ana Tudor</h3>
+        <a class="btn" href="https://codepen.io/thebabydino">Read more</a>
+      </div>
+
+      <div class="card">
+        <a href="https://www.craftui.com/">
+          <img src="images/personalities/alla-photo.jpg" width="" height="" alt="Some sample words">
+        </a>
+        <h3>Alla Kholmatova</h3>
+        <a class="btn" href="https://www.craftui.com/">Read more</a>
+      </div>
+
+      <div class="card">
+        <a href="https://chriscoyier.net/">
+          <img src="images/personalities/chris-photo.jpg" width="" height="" alt="Some sample words">
+        </a>
+        <h3>Chris Coyier</h3>
+        <a class="btn" href="https://chriscoyier.net/">Read more</a>
+      </div>
+
+      <div class="card">
+        <a href="https://sarahdrasnerdesign.com/">
+          <img src="images/personalities/sarah-photo.jpg" width="" height="" alt="Some sample words">
+        </a>
+        <h3>Sarah Drasner</h3>
+        <a class="btn" href="https://sarahdrasnerdesign.com/">Read more</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    Footer
+  </footer>
 
 
 </body>

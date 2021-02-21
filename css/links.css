@@ -2,11 +2,11 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 a {
-  color: var(--accent-color);
+  color: var(--text-color-richer);
 }
 
 a:hover {
-  color: var(--accent-color-hover);
+  text-decoration: solid;
 }
 
 a:link {

@@ -8,11 +8,34 @@ there.
 */
 
 
-/* Larger than mobile (default point when grid becomes active) */
-@media (min-width: 600px) {}
-
-/* Larger than phablet */
-@media (min-width: 900px) {}
-
-/* Larger than tablet */
-@media (min-width: 1200px) {}
+/*low resolution tablets, mobiles (landscape)*/
+@media (min-width: 481px) and (max-width: 767px) {
+    .about-bg {
+      background: #f9b5c5;
+    }
+  }
+  
+  /*tablets, ipads (landscape)*/
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .about-bg {
+      background: #f591a9;
+    }
+  }
+  
+  /*laptops, desktops*/
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .about-bg {
+      background: #f26c8c;
+    }
+    .container {
+      color:white;
+    }
+  }
+  
+  /*desktops - higher resolution*/
+  @media (min-width: 1281px) {
+    .about-bg {
+      background: #ef476f;
+      color : #fff;
+    }
+  }
