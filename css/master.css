@@ -27,7 +27,8 @@ ul {
 .card h3 {
     margin: .75em 0 .5em;
 }
-.card > img {
+
+.card>img {
     object-fit: cover;
 }
 
@@ -112,4 +113,19 @@ img {
 .right-side {
     flex-direction: column;
     margin-left: 3rem;
+}
+
+.rachel-container {
+    position: relative;
+    text-align: left;
+}
+
+.centered-text {
+    position: absolute;
+    color: white;
+    background-color: rgba(239, 71, 111, 0.7);
+    padding: 3rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
